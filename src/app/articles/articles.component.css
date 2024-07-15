@@ -1,0 +1,36 @@
+.articles {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.article-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  counter-reset: article-counter 0;
+}
+
+.article-item {
+  padding: 10px;
+
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.article-item::before {
+  counter-increment: article-counter;
+  content: counter(article-counter);
+
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
