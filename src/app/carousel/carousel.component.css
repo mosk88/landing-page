@@ -6,7 +6,7 @@
 }
 
 .thumbnail {
-    width: 200px;
+    width: 400px;
     height: 300px;
     margin: 0 10px;
     border: 2px solid transparent;
@@ -20,6 +20,5 @@ button {
     border: none;
     padding: 10px;
     cursor: pointer;
-    margin-right: -80px;
-    margin-left: -80px;
+   
 }
