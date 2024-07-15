@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './section-intro.component.css'
 })
 export class SectionIntroComponent {
-title = 'landingPage';
+title = 'landingPage , section-intro';
 }

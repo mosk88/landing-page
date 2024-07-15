@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './articles.component.css'
 })
 export class ArticlesComponent {
+articles ="Article"
 
 }
